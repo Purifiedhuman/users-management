@@ -1,5 +1,6 @@
+import { User } from '@/types/user';
+
 import { backendAPIAxiosInstance } from './axios-instance';
-import { User } from './user.api';
 
 export type PostAuthLoginRequestBody = {
 	email: string;
